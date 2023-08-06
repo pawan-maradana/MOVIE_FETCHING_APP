@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="fetches infromation about latest movies">
+        <meta name="author" content="sathwik">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>MOVIES</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body style="font-family: verdana;" id="grad">
+
+        <div class="topnav" id="grad2">
+            <img src="/images/SWC_MOVIES.png" alt="SWC logo" class="logo">
+
+            <div class="search-container">
+                <div>
+                    <input type="text" id="query" placeholder="Enter Movie name"/>
+                    <button id="searchBtn" onclick="search_movie()"><img src="images/Iconsearch.png" alt="search icon"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="side" id="grad1">
+            <ul>
+                <l class="results"><a href="./layout.html">Search Results</a></l>
+                <l class="remaining"><button onclick="newMovies()">Now Playing</button></l>
+                <l class="remaining"><button onclick="popMovies()">Popular Movies</button></l>
+                <l class="remaining"><button onclick="topMovies()">Top Rated</button></l>
+                <l class="remaining"><button onclick="upMovies()">Upcoming Movies</button></l>
+                <l class="remaining"><button onclick="tv()">Tv Shows</button></l>
+            </ul>
+            
+            <img src="./images/github-mark-white.png" alt="github" class="git logo">
+            <a href="https://github.com/BHOGISAISATHWIK/MOVIES-FETCHING"><img src="./images/GitHub_Logo_White.png" alt="github sign" class="git mark"></a>
+        </div>
+        <div id="menus" class="flex flex-wrap ml-[293.87px] mt-[93.86px] ">
+            <div id="menu">
+
+            </div>
+        </div>
+
+    </body>
+</html>
